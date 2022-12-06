@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+header {
+  background-color: #31343d;
+  color: #92cccd;
+  display: flex;
+}
+
+header h1 {
+  background-color: #92cccd;
+  color: #31343d;
+  width: 20%;
+  text-align: center;
+  margin: 1% 0;
+}
+
+nav {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-banner {
+  background-image: url('../images/02-hero-bg.png');
+  height: 20%;
+  display: flex;
+  justify-content: end;
+}
+
+.hero-banner h2 {
+  margin: 7% 3% 1%;
+  background-color: #92cccd;
+  color: #31343d;
+  padding: 1%;
+}
+
+.page-wrapper {
+  margin: 5%;
+  color: #31343d;
+}
+
+.page-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 10% 90%;
+}
+
+.page-section h2 {
+  font-size: 36px;
+  float: right;
+}
+
+.page-section article{
+  border-left: solid 5px #31343d;
+  padding-left: 4%;
+}
+
+.work-images img {
+  padding: 0.5em;
+  background-color: #92cccd;
+}
+
+.contact {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 18px;
+  left: 0px;
+  padding: 1% 2%;
+  background-color: #92cccd;
+  color: #31343d;
+  font-size: 20px;
+}
