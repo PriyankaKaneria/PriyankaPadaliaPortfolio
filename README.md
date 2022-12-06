@@ -10,4 +10,4 @@ https://priyankakaneria.github.io/PriyankaPadaliaPortfolio
 https://github.com/PriyankaKaneria
 
 ## screenshot
-![alt text](https://github.com/PriyankaKaneria/PriyankaPadaliaPortfolio/images/Screenshot.png)
+![alt text](https://github.com/PriyankaKaneria/PriyankaPadaliaPortfolio/blob/main/images/Screenshot.png)
